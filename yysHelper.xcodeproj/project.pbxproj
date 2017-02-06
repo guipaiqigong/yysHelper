@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10BF0FCE1E09930100DF8FF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E10D291E098CD400A5DADE /* Assets.xcassets */; };
+		10E10D1F1E098CD400A5DADE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E10D1E1E098CD400A5DADE /* main.m */; };
+		10E10D221E098CD400A5DADE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E10D211E098CD400A5DADE /* AppDelegate.m */; };
+		10E10D251E098CD400A5DADE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E10D241E098CD400A5DADE /* ViewController.m */; };
+		10E10D281E098CD400A5DADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E10D261E098CD400A5DADE /* Main.storyboard */; };
+		10E10D2A1E098CD400A5DADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E10D291E098CD400A5DADE /* Assets.xcassets */; };
+		10E10D2D1E098CD400A5DADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E10D2B1E098CD400A5DADE /* LaunchScreen.storyboard */; };
+		10E10D381E098CD400A5DADE /* yysHelperUITests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 10E10D371E098CD400A5DADE /* yysHelperUITests.mm */; };
+		10E10D981E098DA900A5DADE /* openCVUtility.mm in Sources */ = {isa = PBXBuildFile; fileRef = 10E10D961E098DA900A5DADE /* openCVUtility.mm */; };
+		62BFC7552C7DF3531CB85DEB /* libPods-yysHelperUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 510F7E871F7224AC3ED30105 /* libPods-yysHelperUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10E10D341E098CD400A5DADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10E10D121E098CD400A5DADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10E10D191E098CD400A5DADE;
+			remoteInfo = yysHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00953F5612945304ACC01048 /* Pods-yysHelperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yysHelperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yysHelperUITests/Pods-yysHelperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		10E10D1A1E098CD400A5DADE /* yysHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yysHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E10D1E1E098CD400A5DADE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10E10D201E098CD400A5DADE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10E10D211E098CD400A5DADE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10E10D231E098CD400A5DADE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10E10D241E098CD400A5DADE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10E10D271E098CD400A5DADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10E10D291E098CD400A5DADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10E10D2C1E098CD400A5DADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10E10D2E1E098CD400A5DADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E10D331E098CD400A5DADE /* yysHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yysHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E10D371E098CD400A5DADE /* yysHelperUITests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = yysHelperUITests.mm; sourceTree = "<group>"; };
+		10E10D391E098CD400A5DADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E10D441E098D9300A5DADE /* _XCDarwinNotificationExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCDarwinNotificationExpectation.h; sourceTree = "<group>"; };
+		10E10D451E098D9300A5DADE /* _XCInternalTestRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCInternalTestRun.h; sourceTree = "<group>"; };
+		10E10D461E098D9300A5DADE /* _XCKVOExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCKVOExpectation.h; sourceTree = "<group>"; };
+		10E10D471E098D9300A5DADE /* _XCNotificationExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCNotificationExpectation.h; sourceTree = "<group>"; };
+		10E10D481E098D9300A5DADE /* _XCPredicateExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCPredicateExpectation.h; sourceTree = "<group>"; };
+		10E10D491E098D9300A5DADE /* _XCTestCaseImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestCaseImplementation.h; sourceTree = "<group>"; };
+		10E10D4A1E098D9300A5DADE /* _XCTestCaseInterruptionException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestCaseInterruptionException.h; sourceTree = "<group>"; };
+		10E10D4B1E098D9300A5DADE /* _XCTestDriverTestObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestDriverTestObserver.h; sourceTree = "<group>"; };
+		10E10D4C1E098D9300A5DADE /* _XCTestExpectationImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestExpectationImplementation.h; sourceTree = "<group>"; };
+		10E10D4D1E098D9300A5DADE /* _XCTestExpectationWaiterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestExpectationWaiterImplementation.h; sourceTree = "<group>"; };
+		10E10D4E1E098D9300A5DADE /* _XCTestImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestImplementation.h; sourceTree = "<group>"; };
+		10E10D4F1E098D9300A5DADE /* _XCTestObservationCenterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestObservationCenterImplementation.h; sourceTree = "<group>"; };
+		10E10D501E098D9300A5DADE /* _XCTestSuiteImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestSuiteImplementation.h; sourceTree = "<group>"; };
+		10E10D511E098D9300A5DADE /* CDStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStructures.h; sourceTree = "<group>"; };
+		10E10D521E098D9300A5DADE /* NSString-XCTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-XCTAdditions.h"; sourceTree = "<group>"; };
+		10E10D531E098D9300A5DADE /* NSValue-XCTestAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue-XCTestAdditions.h"; sourceTree = "<group>"; };
+		10E10D541E098D9300A5DADE /* UIGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		10E10D551E098D9300A5DADE /* UILongPressGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILongPressGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		10E10D561E098D9300A5DADE /* UIPanGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPanGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		10E10D571E098D9300A5DADE /* UIPinchGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPinchGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		10E10D581E098D9300A5DADE /* UISwipeGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISwipeGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		10E10D591E098D9300A5DADE /* UITapGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		10E10D5A1E098D9300A5DADE /* XCAccessibilityElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAccessibilityElement.h; sourceTree = "<group>"; };
+		10E10D5B1E098D9300A5DADE /* XCActivityRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCActivityRecord.h; sourceTree = "<group>"; };
+		10E10D5C1E098D9300A5DADE /* XCApplicationMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCApplicationMonitor.h; sourceTree = "<group>"; };
+		10E10D5D1E098D9300A5DADE /* XCApplicationMonitor_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCApplicationMonitor_iOS.h; sourceTree = "<group>"; };
+		10E10D5E1E098D9300A5DADE /* XCApplicationQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCApplicationQuery.h; sourceTree = "<group>"; };
+		10E10D5F1E098D9300A5DADE /* XCAXClient_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAXClient_iOS.h; sourceTree = "<group>"; };
+		10E10D601E098D9300A5DADE /* XCDebugLogDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCDebugLogDelegate-Protocol.h"; sourceTree = "<group>"; };
+		10E10D611E098D9300A5DADE /* XCDeviceEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDeviceEvent.h; sourceTree = "<group>"; };
+		10E10D621E098D9300A5DADE /* XCElementSnapshot-Hitpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCElementSnapshot-Hitpoint.h"; sourceTree = "<group>"; };
+		10E10D631E098D9300A5DADE /* XCElementSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCElementSnapshot.h; sourceTree = "<group>"; };
+		10E10D641E098D9300A5DADE /* XCEventGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCEventGenerator.h; sourceTree = "<group>"; };
+		10E10D651E098D9300A5DADE /* XCKeyboardInputSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCKeyboardInputSolver.h; sourceTree = "<group>"; };
+		10E10D661E098D9300A5DADE /* XCKeyboardKeyMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCKeyboardKeyMap.h; sourceTree = "<group>"; };
+		10E10D671E098D9300A5DADE /* XCKeyboardLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCKeyboardLayout.h; sourceTree = "<group>"; };
+		10E10D681E098D9300A5DADE /* XCKeyMappingPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCKeyMappingPath.h; sourceTree = "<group>"; };
+		10E10D691E098D9300A5DADE /* XCPointerEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPointerEvent.h; sourceTree = "<group>"; };
+		10E10D6A1E098D9300A5DADE /* XCPointerEventPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPointerEventPath.h; sourceTree = "<group>"; };
+		10E10D6B1E098D9300A5DADE /* XCSourceCodeRecording.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSourceCodeRecording.h; sourceTree = "<group>"; };
+		10E10D6C1E098D9300A5DADE /* XCSourceCodeTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSourceCodeTreeNode.h; sourceTree = "<group>"; };
+		10E10D6D1E098D9300A5DADE /* XCSourceCodeTreeNodeEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSourceCodeTreeNodeEnumerator.h; sourceTree = "<group>"; };
+		10E10D6E1E098D9300A5DADE /* XCSymbolicationRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSymbolicationRecord.h; sourceTree = "<group>"; };
+		10E10D6F1E098D9300A5DADE /* XCSymbolicatorHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSymbolicatorHolder.h; sourceTree = "<group>"; };
+		10E10D701E098D9300A5DADE /* XCSynthesizedEventRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSynthesizedEventRecord.h; sourceTree = "<group>"; };
+		10E10D711E098D9300A5DADE /* XCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTest.h; sourceTree = "<group>"; };
+		10E10D721E098D9300A5DADE /* XCTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestCase.h; sourceTree = "<group>"; };
+		10E10D731E098D9300A5DADE /* XCTestCaseRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestCaseRun.h; sourceTree = "<group>"; };
+		10E10D741E098D9300A5DADE /* XCTestCaseSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestCaseSuite.h; sourceTree = "<group>"; };
+		10E10D751E098D9300A5DADE /* XCTestConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestConfiguration.h; sourceTree = "<group>"; };
+		10E10D761E098D9300A5DADE /* XCTestContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestContext.h; sourceTree = "<group>"; };
+		10E10D771E098D9300A5DADE /* XCTestContextScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestContextScope.h; sourceTree = "<group>"; };
+		10E10D781E098D9300A5DADE /* XCTestDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestDriver.h; sourceTree = "<group>"; };
+		10E10D791E098D9300A5DADE /* XCTestDriverInterface-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestDriverInterface-Protocol.h"; sourceTree = "<group>"; };
+		10E10D7A1E098D9300A5DADE /* XCTestExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestExpectation.h; sourceTree = "<group>"; };
+		10E10D7B1E098D9300A5DADE /* XCTestExpectationDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestExpectationDelegate-Protocol.h"; sourceTree = "<group>"; };
+		10E10D7C1E098D9300A5DADE /* XCTestExpectationWaiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestExpectationWaiter.h; sourceTree = "<group>"; };
+		10E10D7D1E098D9300A5DADE /* XCTestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestLog.h; sourceTree = "<group>"; };
+		10E10D7E1E098D9300A5DADE /* XCTestManager_IDEInterface-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestManager_IDEInterface-Protocol.h"; sourceTree = "<group>"; };
+		10E10D7F1E098D9300A5DADE /* XCTestManager_ManagerInterface-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestManager_ManagerInterface-Protocol.h"; sourceTree = "<group>"; };
+		10E10D801E098D9300A5DADE /* XCTestManager_TestsInterface-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestManager_TestsInterface-Protocol.h"; sourceTree = "<group>"; };
+		10E10D811E098D9300A5DADE /* XCTestObservation-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestObservation-Protocol.h"; sourceTree = "<group>"; };
+		10E10D821E098D9300A5DADE /* XCTestObservationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestObservationCenter.h; sourceTree = "<group>"; };
+		10E10D831E098D9300A5DADE /* XCTestObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestObserver.h; sourceTree = "<group>"; };
+		10E10D841E098D9300A5DADE /* XCTestProbe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestProbe.h; sourceTree = "<group>"; };
+		10E10D851E098D9300A5DADE /* XCTestRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestRun.h; sourceTree = "<group>"; };
+		10E10D861E098D9300A5DADE /* XCTestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestSuite.h; sourceTree = "<group>"; };
+		10E10D871E098D9300A5DADE /* XCTestSuiteRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestSuiteRun.h; sourceTree = "<group>"; };
+		10E10D881E098D9300A5DADE /* XCUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIApplication.h; sourceTree = "<group>"; };
+		10E10D891E098D9300A5DADE /* XCUIApplicationImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIApplicationImpl.h; sourceTree = "<group>"; };
+		10E10D8A1E098D9300A5DADE /* XCUIApplicationProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIApplicationProcess.h; sourceTree = "<group>"; };
+		10E10D8B1E098D9300A5DADE /* XCUICoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUICoordinate.h; sourceTree = "<group>"; };
+		10E10D8C1E098D9300A5DADE /* XCUIDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIDevice.h; sourceTree = "<group>"; };
+		10E10D8D1E098D9300A5DADE /* XCUIElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElement.h; sourceTree = "<group>"; };
+		10E10D8E1E098D9300A5DADE /* XCUIElementAsynchronousHandlerWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElementAsynchronousHandlerWrapper.h; sourceTree = "<group>"; };
+		10E10D8F1E098D9300A5DADE /* XCUIElementHitPointCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElementHitPointCoordinate.h; sourceTree = "<group>"; };
+		10E10D901E098D9300A5DADE /* XCUIElementQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElementQuery.h; sourceTree = "<group>"; };
+		10E10D911E098D9300A5DADE /* XCUIRecorderNodeFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIRecorderNodeFinder.h; sourceTree = "<group>"; };
+		10E10D921E098D9300A5DADE /* XCUIRecorderNodeFinderMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIRecorderNodeFinderMatch.h; sourceTree = "<group>"; };
+		10E10D931E098D9300A5DADE /* XCUIRecorderTimingMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIRecorderTimingMessage.h; sourceTree = "<group>"; };
+		10E10D941E098D9300A5DADE /* XCUIRecorderUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIRecorderUtilities.h; sourceTree = "<group>"; };
+		10E10D951E098DA900A5DADE /* openCVUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openCVUtility.h; sourceTree = "<group>"; };
+		10E10D961E098DA900A5DADE /* openCVUtility.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = openCVUtility.mm; sourceTree = "<group>"; };
+		510F7E871F7224AC3ED30105 /* libPods-yysHelperUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yysHelperUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8499E2245B1DF3EFCB88C0D /* Pods-yysHelperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yysHelperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yysHelperUITests/Pods-yysHelperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10E10D171E098CD400A5DADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E10D301E098CD400A5DADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BFC7552C7DF3531CB85DEB /* libPods-yysHelperUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10E10D111E098CD400A5DADE = {
+			isa = PBXGroup;
+			children = (
+				10E10D1C1E098CD400A5DADE /* Shell */,
+				10E10D421E098D9300A5DADE /* PrivateHeaders */,
+				10E10D361E098CD400A5DADE /* yysHelper */,
+				10E10D1B1E098CD400A5DADE /* Products */,
+				568D39207A088713379D58A7 /* Pods */,
+				39D32E544EC9E17D0713E2DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10E10D1B1E098CD400A5DADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10E10D1A1E098CD400A5DADE /* yysHelper.app */,
+				10E10D331E098CD400A5DADE /* yysHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10E10D1C1E098CD400A5DADE /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+				10E10D201E098CD400A5DADE /* AppDelegate.h */,
+				10E10D211E098CD400A5DADE /* AppDelegate.m */,
+				10E10D231E098CD400A5DADE /* ViewController.h */,
+				10E10D241E098CD400A5DADE /* ViewController.m */,
+				10E10D261E098CD400A5DADE /* Main.storyboard */,
+				10E10D291E098CD400A5DADE /* Assets.xcassets */,
+				10E10D2B1E098CD400A5DADE /* LaunchScreen.storyboard */,
+				10E10D2E1E098CD400A5DADE /* Info.plist */,
+				10E10D1D1E098CD400A5DADE /* Supporting Files */,
+			);
+			name = Shell;
+			path = yysHelper;
+			sourceTree = "<group>";
+		};
+		10E10D1D1E098CD400A5DADE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10E10D1E1E098CD400A5DADE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10E10D361E098CD400A5DADE /* yysHelper */ = {
+			isa = PBXGroup;
+			children = (
+				10E10D951E098DA900A5DADE /* openCVUtility.h */,
+				10E10D961E098DA900A5DADE /* openCVUtility.mm */,
+				10E10D371E098CD400A5DADE /* yysHelperUITests.mm */,
+				10E10D391E098CD400A5DADE /* Info.plist */,
+			);
+			name = yysHelper;
+			path = yysHelperUITests;
+			sourceTree = "<group>";
+		};
+		10E10D421E098D9300A5DADE /* PrivateHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				10E10D431E098D9300A5DADE /* XCTest */,
+			);
+			path = PrivateHeaders;
+			sourceTree = "<group>";
+		};
+		10E10D431E098D9300A5DADE /* XCTest */ = {
+			isa = PBXGroup;
+			children = (
+				10E10D441E098D9300A5DADE /* _XCDarwinNotificationExpectation.h */,
+				10E10D451E098D9300A5DADE /* _XCInternalTestRun.h */,
+				10E10D461E098D9300A5DADE /* _XCKVOExpectation.h */,
+				10E10D471E098D9300A5DADE /* _XCNotificationExpectation.h */,
+				10E10D481E098D9300A5DADE /* _XCPredicateExpectation.h */,
+				10E10D491E098D9300A5DADE /* _XCTestCaseImplementation.h */,
+				10E10D4A1E098D9300A5DADE /* _XCTestCaseInterruptionException.h */,
+				10E10D4B1E098D9300A5DADE /* _XCTestDriverTestObserver.h */,
+				10E10D4C1E098D9300A5DADE /* _XCTestExpectationImplementation.h */,
+				10E10D4D1E098D9300A5DADE /* _XCTestExpectationWaiterImplementation.h */,
+				10E10D4E1E098D9300A5DADE /* _XCTestImplementation.h */,
+				10E10D4F1E098D9300A5DADE /* _XCTestObservationCenterImplementation.h */,
+				10E10D501E098D9300A5DADE /* _XCTestSuiteImplementation.h */,
+				10E10D511E098D9300A5DADE /* CDStructures.h */,
+				10E10D521E098D9300A5DADE /* NSString-XCTAdditions.h */,
+				10E10D531E098D9300A5DADE /* NSValue-XCTestAdditions.h */,
+				10E10D541E098D9300A5DADE /* UIGestureRecognizer-RecordingAdditions.h */,
+				10E10D551E098D9300A5DADE /* UILongPressGestureRecognizer-RecordingAdditions.h */,
+				10E10D561E098D9300A5DADE /* UIPanGestureRecognizer-RecordingAdditions.h */,
+				10E10D571E098D9300A5DADE /* UIPinchGestureRecognizer-RecordingAdditions.h */,
+				10E10D581E098D9300A5DADE /* UISwipeGestureRecognizer-RecordingAdditions.h */,
+				10E10D591E098D9300A5DADE /* UITapGestureRecognizer-RecordingAdditions.h */,
+				10E10D5A1E098D9300A5DADE /* XCAccessibilityElement.h */,
+				10E10D5B1E098D9300A5DADE /* XCActivityRecord.h */,
+				10E10D5C1E098D9300A5DADE /* XCApplicationMonitor.h */,
+				10E10D5D1E098D9300A5DADE /* XCApplicationMonitor_iOS.h */,
+				10E10D5E1E098D9300A5DADE /* XCApplicationQuery.h */,
+				10E10D5F1E098D9300A5DADE /* XCAXClient_iOS.h */,
+				10E10D601E098D9300A5DADE /* XCDebugLogDelegate-Protocol.h */,
+				10E10D611E098D9300A5DADE /* XCDeviceEvent.h */,
+				10E10D621E098D9300A5DADE /* XCElementSnapshot-Hitpoint.h */,
+				10E10D631E098D9300A5DADE /* XCElementSnapshot.h */,
+				10E10D641E098D9300A5DADE /* XCEventGenerator.h */,
+				10E10D651E098D9300A5DADE /* XCKeyboardInputSolver.h */,
+				10E10D661E098D9300A5DADE /* XCKeyboardKeyMap.h */,
+				10E10D671E098D9300A5DADE /* XCKeyboardLayout.h */,
+				10E10D681E098D9300A5DADE /* XCKeyMappingPath.h */,
+				10E10D691E098D9300A5DADE /* XCPointerEvent.h */,
+				10E10D6A1E098D9300A5DADE /* XCPointerEventPath.h */,
+				10E10D6B1E098D9300A5DADE /* XCSourceCodeRecording.h */,
+				10E10D6C1E098D9300A5DADE /* XCSourceCodeTreeNode.h */,
+				10E10D6D1E098D9300A5DADE /* XCSourceCodeTreeNodeEnumerator.h */,
+				10E10D6E1E098D9300A5DADE /* XCSymbolicationRecord.h */,
+				10E10D6F1E098D9300A5DADE /* XCSymbolicatorHolder.h */,
+				10E10D701E098D9300A5DADE /* XCSynthesizedEventRecord.h */,
+				10E10D711E098D9300A5DADE /* XCTest.h */,
+				10E10D721E098D9300A5DADE /* XCTestCase.h */,
+				10E10D731E098D9300A5DADE /* XCTestCaseRun.h */,
+				10E10D741E098D9300A5DADE /* XCTestCaseSuite.h */,
+				10E10D751E098D9300A5DADE /* XCTestConfiguration.h */,
+				10E10D761E098D9300A5DADE /* XCTestContext.h */,
+				10E10D771E098D9300A5DADE /* XCTestContextScope.h */,
+				10E10D781E098D9300A5DADE /* XCTestDriver.h */,
+				10E10D791E098D9300A5DADE /* XCTestDriverInterface-Protocol.h */,
+				10E10D7A1E098D9300A5DADE /* XCTestExpectation.h */,
+				10E10D7B1E098D9300A5DADE /* XCTestExpectationDelegate-Protocol.h */,
+				10E10D7C1E098D9300A5DADE /* XCTestExpectationWaiter.h */,
+				10E10D7D1E098D9300A5DADE /* XCTestLog.h */,
+				10E10D7E1E098D9300A5DADE /* XCTestManager_IDEInterface-Protocol.h */,
+				10E10D7F1E098D9300A5DADE /* XCTestManager_ManagerInterface-Protocol.h */,
+				10E10D801E098D9300A5DADE /* XCTestManager_TestsInterface-Protocol.h */,
+				10E10D811E098D9300A5DADE /* XCTestObservation-Protocol.h */,
+				10E10D821E098D9300A5DADE /* XCTestObservationCenter.h */,
+				10E10D831E098D9300A5DADE /* XCTestObserver.h */,
+				10E10D841E098D9300A5DADE /* XCTestProbe.h */,
+				10E10D851E098D9300A5DADE /* XCTestRun.h */,
+				10E10D861E098D9300A5DADE /* XCTestSuite.h */,
+				10E10D871E098D9300A5DADE /* XCTestSuiteRun.h */,
+				10E10D881E098D9300A5DADE /* XCUIApplication.h */,
+				10E10D891E098D9300A5DADE /* XCUIApplicationImpl.h */,
+				10E10D8A1E098D9300A5DADE /* XCUIApplicationProcess.h */,
+				10E10D8B1E098D9300A5DADE /* XCUICoordinate.h */,
+				10E10D8C1E098D9300A5DADE /* XCUIDevice.h */,
+				10E10D8D1E098D9300A5DADE /* XCUIElement.h */,
+				10E10D8E1E098D9300A5DADE /* XCUIElementAsynchronousHandlerWrapper.h */,
+				10E10D8F1E098D9300A5DADE /* XCUIElementHitPointCoordinate.h */,
+				10E10D901E098D9300A5DADE /* XCUIElementQuery.h */,
+				10E10D911E098D9300A5DADE /* XCUIRecorderNodeFinder.h */,
+				10E10D921E098D9300A5DADE /* XCUIRecorderNodeFinderMatch.h */,
+				10E10D931E098D9300A5DADE /* XCUIRecorderTimingMessage.h */,
+				10E10D941E098D9300A5DADE /* XCUIRecorderUtilities.h */,
+			);
+			path = XCTest;
+			sourceTree = "<group>";
+		};
+		39D32E544EC9E17D0713E2DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				510F7E871F7224AC3ED30105 /* libPods-yysHelperUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		568D39207A088713379D58A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8499E2245B1DF3EFCB88C0D /* Pods-yysHelperUITests.debug.xcconfig */,
+				00953F5612945304ACC01048 /* Pods-yysHelperUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10E10D191E098CD400A5DADE /* yysHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E10D3C1E098CD400A5DADE /* Build configuration list for PBXNativeTarget "yysHelper" */;
+			buildPhases = (
+				10E10D161E098CD400A5DADE /* Sources */,
+				10E10D171E098CD400A5DADE /* Frameworks */,
+				10E10D181E098CD400A5DADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yysHelper;
+			productName = yysHelper;
+			productReference = 10E10D1A1E098CD400A5DADE /* yysHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10E10D321E098CD400A5DADE /* yysHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E10D3F1E098CD400A5DADE /* Build configuration list for PBXNativeTarget "yysHelperUITests" */;
+			buildPhases = (
+				0C6C85BFEA39B9FF7F53B81F /* [CP] Check Pods Manifest.lock */,
+				10E10D2F1E098CD400A5DADE /* Sources */,
+				10E10D301E098CD400A5DADE /* Frameworks */,
+				10E10D311E098CD400A5DADE /* Resources */,
+				BF2773A968E1714CBAC540CB /* [CP] Embed Pods Frameworks */,
+				9F0150502E29C4FB2EF60E75 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10E10D351E098CD400A5DADE /* PBXTargetDependency */,
+			);
+			name = yysHelperUITests;
+			productName = yysHelperUITests;
+			productReference = 10E10D331E098CD400A5DADE /* yysHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10E10D121E098CD400A5DADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = guipaiqigong;
+				TargetAttributes = {
+					10E10D191E098CD400A5DADE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					10E10D321E098CD400A5DADE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W2KL3PRJA7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 10E10D191E098CD400A5DADE;
+					};
+				};
+			};
+			buildConfigurationList = 10E10D151E098CD400A5DADE /* Build configuration list for PBXProject "yysHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10E10D111E098CD400A5DADE;
+			productRefGroup = 10E10D1B1E098CD400A5DADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10E10D191E098CD400A5DADE /* yysHelper */,
+				10E10D321E098CD400A5DADE /* yysHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10E10D181E098CD400A5DADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E10D2D1E098CD400A5DADE /* LaunchScreen.storyboard in Resources */,
+				10E10D2A1E098CD400A5DADE /* Assets.xcassets in Resources */,
+				10E10D281E098CD400A5DADE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E10D311E098CD400A5DADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BF0FCE1E09930100DF8FF6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C6C85BFEA39B9FF7F53B81F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F0150502E29C4FB2EF60E75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yysHelperUITests/Pods-yysHelperUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF2773A968E1714CBAC540CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yysHelperUITests/Pods-yysHelperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10E10D161E098CD400A5DADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E10D251E098CD400A5DADE /* ViewController.m in Sources */,
+				10E10D221E098CD400A5DADE /* AppDelegate.m in Sources */,
+				10E10D1F1E098CD400A5DADE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E10D2F1E098CD400A5DADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E10D381E098CD400A5DADE /* yysHelperUITests.mm in Sources */,
+				10E10D981E098DA900A5DADE /* openCVUtility.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10E10D351E098CD400A5DADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10E10D191E098CD400A5DADE /* yysHelper */;
+			targetProxy = 10E10D341E098CD400A5DADE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10E10D261E098CD400A5DADE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10E10D271E098CD400A5DADE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10E10D2B1E098CD400A5DADE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10E10D2C1E098CD400A5DADE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10E10D3A1E098CD400A5DADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10E10D3B1E098CD400A5DADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10E10D3D1E098CD400A5DADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = yysHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeshuai.yysHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10E10D3E1E098CD400A5DADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = yysHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeshuai.yysHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		10E10D401E098CD400A5DADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8499E2245B1DF3EFCB88C0D /* Pods-yysHelperUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W2KL3PRJA7;
+				INFOPLIST_FILE = yysHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeshuai.yysHelper.yysHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = yysHelper;
+			};
+			name = Debug;
+		};
+		10E10D411E098CD400A5DADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00953F5612945304ACC01048 /* Pods-yysHelperUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W2KL3PRJA7;
+				INFOPLIST_FILE = yysHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeshuai.yysHelper.yysHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = yysHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10E10D151E098CD400A5DADE /* Build configuration list for PBXProject "yysHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E10D3A1E098CD400A5DADE /* Debug */,
+				10E10D3B1E098CD400A5DADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10E10D3C1E098CD400A5DADE /* Build configuration list for PBXNativeTarget "yysHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E10D3D1E098CD400A5DADE /* Debug */,
+				10E10D3E1E098CD400A5DADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10E10D3F1E098CD400A5DADE /* Build configuration list for PBXNativeTarget "yysHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E10D401E098CD400A5DADE /* Debug */,
+				10E10D411E098CD400A5DADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10E10D121E098CD400A5DADE /* Project object */;
+}
